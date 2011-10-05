@@ -24,6 +24,8 @@
 		4348A71D1424A6660080494E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4348A71B1424A6660080494E /* InfoPlist.strings */; };
 		4348A71F1424A6660080494E /* MyFirstIosTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4348A71E1424A6660080494E /* MyFirstIosTests.h */; };
 		4348A7211424A6660080494E /* MyFirstIosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4348A7201424A6660080494E /* MyFirstIosTests.m */; };
+		43CC38071425B30F00E5AD23 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC38051425B30F00E5AD23 /* MyViewController.m */; };
+		43CC38081425B30F00E5AD23 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43CC38061425B30F00E5AD23 /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,24 +43,27 @@
 		4348A6EB1424A6660080494E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4348A6ED1424A6660080494E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4348A6EF1424A6660080494E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4348A6F31424A6660080494E /* MyFirstIos-Info.plist */ = {isa = PBXFileReference; path = "MyFirstIos-Info.plist"; sourceTree = "<group>"; };
+		4348A6F31424A6660080494E /* MyFirstIos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstIos-Info.plist"; sourceTree = "<group>"; };
 		4348A6F51424A6660080494E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4348A6F71424A6660080494E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4348A6F91424A6660080494E /* MyFirstIos-Prefix.pch */ = {isa = PBXFileReference; path = "MyFirstIos-Prefix.pch"; sourceTree = "<group>"; };
-		4348A6FA1424A6660080494E /* MyFirstIosAppDelegate.h */ = {isa = PBXFileReference; path = MyFirstIosAppDelegate.h; sourceTree = "<group>"; };
+		4348A6F91424A6660080494E /* MyFirstIos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstIos-Prefix.pch"; sourceTree = "<group>"; };
+		4348A6FA1424A6660080494E /* MyFirstIosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstIosAppDelegate.h; sourceTree = "<group>"; };
 		4348A6FB1424A6660080494E /* MyFirstIosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstIosAppDelegate.m; sourceTree = "<group>"; };
-		4348A6FE1424A6660080494E /* MyFirstIosAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = MyFirstIosAppDelegate_iPhone.h; path = iPhone/MyFirstIosAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		4348A6FE1424A6660080494E /* MyFirstIosAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyFirstIosAppDelegate_iPhone.h; path = iPhone/MyFirstIosAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		4348A6FF1424A6660080494E /* MyFirstIosAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyFirstIosAppDelegate_iPhone.m; path = iPhone/MyFirstIosAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		4348A7021424A6660080494E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		4348A7051424A6660080494E /* MyFirstIosAppDelegate_iPad.h */ = {isa = PBXFileReference; name = MyFirstIosAppDelegate_iPad.h; path = iPad/MyFirstIosAppDelegate_iPad.h; sourceTree = "<group>"; };
+		4348A7051424A6660080494E /* MyFirstIosAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyFirstIosAppDelegate_iPad.h; path = iPad/MyFirstIosAppDelegate_iPad.h; sourceTree = "<group>"; };
 		4348A7061424A6660080494E /* MyFirstIosAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyFirstIosAppDelegate_iPad.m; path = iPad/MyFirstIosAppDelegate_iPad.m; sourceTree = "<group>"; };
 		4348A7091424A6660080494E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		4348A7101424A6660080494E /* MyFirstIosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstIosTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4348A7111424A6660080494E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4348A71A1424A6660080494E /* MyFirstIosTests-Info.plist */ = {isa = PBXFileReference; path = "MyFirstIosTests-Info.plist"; sourceTree = "<group>"; };
+		4348A71A1424A6660080494E /* MyFirstIosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstIosTests-Info.plist"; sourceTree = "<group>"; };
 		4348A71C1424A6660080494E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4348A71E1424A6660080494E /* MyFirstIosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstIosTests.h; sourceTree = "<group>"; };
 		4348A7201424A6660080494E /* MyFirstIosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstIosTests.m; sourceTree = "<group>"; };
+		43CC38041425B30E00E5AD23 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		43CC38051425B30F00E5AD23 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		43CC38061425B30F00E5AD23 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +129,9 @@
 				4348A6FD1424A6660080494E /* iPhone */,
 				4348A7041424A6660080494E /* iPad */,
 				4348A6F21424A6660080494E /* Supporting Files */,
+				43CC38041425B30E00E5AD23 /* MyViewController.h */,
+				43CC38051425B30F00E5AD23 /* MyViewController.m */,
+				43CC38061425B30F00E5AD23 /* MyViewController.xib */,
 			);
 			path = MyFirstIos;
 			sourceTree = "<group>";
@@ -248,6 +256,7 @@
 				4348A6F61424A6660080494E /* InfoPlist.strings in Resources */,
 				4348A7031424A6660080494E /* MainWindow_iPhone.xib in Resources */,
 				4348A70A1424A6660080494E /* MainWindow_iPad.xib in Resources */,
+				43CC38081425B30F00E5AD23 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +296,7 @@
 				4348A6FC1424A6660080494E /* MyFirstIosAppDelegate.m in Sources */,
 				4348A7001424A6660080494E /* MyFirstIosAppDelegate_iPhone.m in Sources */,
 				4348A7071424A6660080494E /* MyFirstIosAppDelegate_iPad.m in Sources */,
+				43CC38071425B30F00E5AD23 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +474,7 @@
 				4348A7261424A6660080494E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4348A7271424A6660080494E /* Build configuration list for PBXNativeTarget "MyFirstIosTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +483,7 @@
 				4348A7291424A6660080494E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

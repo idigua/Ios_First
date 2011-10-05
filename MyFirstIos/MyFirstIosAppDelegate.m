@@ -6,15 +6,29 @@
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 //
 
+#import "MyViewController.h"
+
 #import "MyFirstIosAppDelegate.h"
 
 @implementation MyFirstIosAppDelegate
 
 @synthesize window = _window;
 
+@synthesize myViewController=_myViewContller;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"========================inter2");
+    
+    MyViewController *aViewController = [[MyViewController alloc]
+                                         initWithNibName:@"MyViewController" bundle:[NSBundle mainBundle]];
+    [self setMyViewController:aViewController];
+    [aViewController release];
+    
+    UIView *controllersView = [_myViewContller view];
+    [_window addSubview:controllersView];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -60,6 +74,7 @@
 
 - (void)dealloc
 {
+    [_myViewContller release];
     [_window release];
     [super dealloc];
 }
