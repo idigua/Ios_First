@@ -21,6 +21,7 @@
     // Override point for customization after application launch.
     NSLog(@"========================inter2");
     
+    
     MyViewController *aViewController = [[MyViewController alloc]
                                          initWithNibName:@"MyViewController" bundle:[NSBundle mainBundle]];
     [self setMyViewController:aViewController];
